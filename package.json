@@ -1,0 +1,16 @@
+{
+  "name": "server-docs",
+  "version": "1.0.0",
+  "description": "Destrostudios Server Documentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run docs:dev",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "author": "destroflyer",
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.35"
+  }
+}
