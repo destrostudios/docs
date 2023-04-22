@@ -1,2 +1,2 @@
-# server-docs
-Documentation about the setup of our server, where everything is hosted.
+# docs
+Documentation about our setups, including the server where everything is hosted.
