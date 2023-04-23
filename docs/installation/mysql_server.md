@@ -1,3 +1,3 @@
 # MySQL Server
 
-- TODO: Describe installation (XAMPP)
+- TODO: Describe installation (`mysql`)

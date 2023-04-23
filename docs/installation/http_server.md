@@ -1,3 +1,3 @@
 # HTTP Server
 
-- TODO: Describe installation (XAMPP)
+- TODO: Describe installation (`apache2`)
