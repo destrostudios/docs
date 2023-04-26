@@ -1,8 +1,36 @@
 # Jenkins
+- User interface: [185.183.156.11:8090](http://185.183.156.11:8090/)
 - TODO: Describe installation and config
 - `jenkins.war` is in `/usr/share/java`
-- Jenkins home directory is in `/home/jenkins`
-- User interface: [185.183.156.11:8090](http://185.183.156.11:8090/)
+
+![destrostudios-jenkins](/images/destrostudios_jenkins.png)
+
+## GitHub user
+- User: [destrostudios-jenkins](https://github.com/destrostudios-jenkins)
+- Access token with scopes `repo:status` and `read:packages`
+
+## Home directory
+- Jenkins has an own system user `jenkins` with home directory `/home/jenkins`
+- Requires file `/home/jenkins/.m2/settings.xml` to download GitHub package dependencies via Maven:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <servers>
+        <server>
+            <id>github</id>
+            <username>destrostudios-jenkins</username>
+            <password>[ACCESS_TOKEN]</password>
+        </server>
+    </servers>
+</settings>
+```
+
+## Credentials
+| Name                  | Type                  | Notes                                                                                                                                                                                    |
+|:----------------------|:----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `github-credentials`  | Username and password | User = `destrostudios-jenkins`, Passwort = Access token (The GitHub API doesn't allow authentication via plaintext passwords anymore, but they accept a valid access token as "password") |
 
 ## Updating
 1. `systemctl stop jenkins`
