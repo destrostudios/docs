@@ -1,3 +1,4 @@
 # MySQL Server
 
-- TODO: Describe installation (`mysql`)
+- TODO: Describe `mysql` installation
+- TODO: Describe phpMyAdmin installation
