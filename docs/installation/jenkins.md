@@ -42,3 +42,4 @@
 
 ## Open topics
 - Warning: "Building on the built-in node can be a security issue. You should set up distributed builds. See the [documentation](https://www.jenkins.io/doc/book/security/controller-isolation/)"
+- When building on the server itself, using Cypress needs a few [dependencies](https://docs.cypress.io/guides/continuous-integration/introduction#UbuntuDebian) installed
