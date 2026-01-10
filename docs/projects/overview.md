@@ -1,11 +1,9 @@
 # Overview
 
-## Basics
-- Server IPv4 address: [185.183.156.11](http://185.183.156.11)
-
 ## Domains
 - [anselm-kuesters.de](https://anselm-kuesters.de)
 - [destrostudios.com](https://destrostudios.com)
+- [ernst-kuesters.de](https://ernst-kuesters.de)
 - [etherblood.com](https://etherblood.com)
 - [fifa-champions.de](https://fifa-champions.de)
 - [maniascript.io](https://maniascript.io)
@@ -14,13 +12,15 @@
 
 ## Projects
 
-- AI Discourse Reader
 - Amara
 - Anselm Kuesters
+- Battle Buds
 - Cards
 - CarlBot
 - Destrostudios
+- Ernst Kuesters
 - Ethercards
+- Fifa Champions
 - Grid
 - Maniascript IO
 - Luna

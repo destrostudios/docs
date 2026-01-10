@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Get started
-      link: /services/overview.html
+      link: /server/overview.html
     - theme: alt
       text: View on GitHub
       link: https://github.com/destrostudios/docs

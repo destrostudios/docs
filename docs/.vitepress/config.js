@@ -10,26 +10,33 @@ export default {
     sidebar: {
       "/": [
         {
-          text: "Services",
+          text: "Server",
           items: [
-            { text: "Overview", link: "/services/overview.md" },
+            { text: "Overview", link: "/server/overview.md" },
+            { text: "Operating system", link: "/server/operating_system.md" },
+            { text: "Storage", link: "/server/storage.md" },
+            { text: "SSH", link: "/server/ssh.md" },
+            { text: "FTP", link: "/server/ftp.md" },
           ],
         },
         {
-          text: "Installation",
+          text: "Infrastructure",
           items: [
-            { text: "HTTP Server", link: "/installation/http_server.md" },
-            { text: "MySQL Server", link: "/installation/mysql_server.md" },
-            { text: "Mail Server", link: "/installation/mail_server.md" },
-            { text: "Java", link: "/installation/java.md" },
-            { text: "Jenkins", link: "/installation/jenkins.md" },
+            { text: "DNS", link: "/infrastructure/dns.md" },
+            { text: "HTTPS", link: "/infrastructure/https.md" },
+            { text: "HTTP server", link: "/infrastructure/http_server.md" },
+            { text: "Docker", link: "/infrastructure/docker.md" },
+            { text: "Jenkins", link: "/infrastructure/jenkins.md" },
+            { text: "Mail server", link: "/infrastructure/mail_server.md" }
           ],
         },
         {
-          text: "Project Setup",
+          text: "Projects",
           items: [
-            { text: "Web Content", link: "/project_setup/web_content.md" },
-            { text: "Ports", link: "/project_setup/ports.md" },
+            { text: "Overview", link: "/projects/overview.md" },
+            { text: "Ports", link: "/projects/ports.md" },
+            { text: "Emails", link: "/projects/emails.md" },
+            { text: "Static content", link: "/projects/static_content.md" },
           ],
         },
       ]
