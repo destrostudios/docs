@@ -1,4 +1,4 @@
-# HTTP Server
+# HTTP server
 
 Software: `apache2`
 
