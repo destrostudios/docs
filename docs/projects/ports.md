@@ -34,5 +34,5 @@
 | 33900 | Yes     | TCP, UDP  | Amara                 | Backend              |
 | 33901 | Yes     | TCP       | Amara                 | DB user interface    |
 | 34000 | Yes     | TCP, UDP  | Battle Buds           | Backend              |
-| 50000 | Yes     | TCP       | Jenkins               | ?                    |
+| 50000 | Yes     | TCP       | Jenkins               | Agent communication  |
 | 52156 | Yes     | TCP       | Grid                  | Backend              |
