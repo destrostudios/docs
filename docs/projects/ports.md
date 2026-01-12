@@ -3,7 +3,9 @@
 | Port  | Exposed | Protocols | Project               | Purpose              |
 |:------|---------|:----------|-----------------------|:---------------------|
 | 25    | Yes     | TCP       | Mailserver            | SMTP (explicit TLS)  |
+| 80    | Yes     | TCP       | HTTP server           | HTTP                 |
 | 143   | Yes     | TCP       | Mailserver            | IMAP4 (explicit TLS) |
+| 443   | Yes     | TCP       | HTTP server           | HTTPS                |
 | 465   | Yes     | TCP       | Mailserver            | ESMTP (implicit TLS) |
 | 587   | Yes     | TCP       | Mailserver            | ESMTP (explicit TLS) |
 | 993   | Yes     | TCP       | Mailserver            | IMAP4 (implicit TLS) |
