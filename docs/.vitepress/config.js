@@ -3,11 +3,11 @@ export default {
   lang: 'en-US',
   title: "destrostudios docs",
   description: "Everything about our setups, including the server where everything is hosted.",
+  appearance: 'dark',
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
-    appearance: 'dark',
     logo: '/destrostudios.svg',
     sidebar: {
       "/": [
