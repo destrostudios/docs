@@ -1,0 +1,8 @@
+name: docs
+services:
+  app:
+    build:
+      dockerfile: app.Dockerfile
+    ports:
+      - "127.0.0.1:1700:80"
+    restart: always

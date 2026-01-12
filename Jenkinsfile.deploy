@@ -1,0 +1,45 @@
+pipeline {
+    agent any
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '10'))
+        skipDefaultCheckout()
+        ansiColor('xterm')
+    }
+    parameters {
+        string(name: 'VERSION', defaultValue: 'master')
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+                sh 'git checkout $VERSION'
+            }
+        }
+        stage('Build') {
+            agent {
+                docker {
+                    image 'node:24-alpine'
+                    reuseNode true
+                }
+            }
+            steps {
+                sh 'npm install'
+                sh 'npm run docs:build'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh 'mv docs/.vitepress/dist docker'
+                dir('docker') {
+                    sh 'docker compose build --no-cache'
+                    sh 'docker compose up -d'
+                }
+            }
+        }
+    }
+    post {
+        always {
+            cleanWs()
+        }
+    }
+}

@@ -2,12 +2,12 @@
 
 | Port  | Exposed | Protocols | Project               | Purpose              |
 |:------|---------|:----------|-----------------------|:---------------------|
-| 25    | Yes     | TCP       | Mailserver            | SMTP (explicit TLS)  | 
-| 143   | Yes     | TCP       | Mailserver            | IMAP4 (explicit TLS) | 
-| 465   | Yes     | TCP       | Mailserver            | ESMTP (implicit TLS) | 
-| 587   | Yes     | TCP       | Mailserver            | ESMTP (explicit TLS) | 
-| 993   | Yes     | TCP       | Mailserver            | IMAP4 (implicit TLS) | 
-| 1337  | Yes     | TCP       | Anselm Kuesters       | Backend (Strapi)     | 
+| 25    | Yes     | TCP       | Mailserver            | SMTP (explicit TLS)  |
+| 143   | Yes     | TCP       | Mailserver            | IMAP4 (explicit TLS) |
+| 465   | Yes     | TCP       | Mailserver            | ESMTP (implicit TLS) |
+| 587   | Yes     | TCP       | Mailserver            | ESMTP (explicit TLS) |
+| 993   | Yes     | TCP       | Mailserver            | IMAP4 (implicit TLS) |
+| 1337  | Yes     | TCP       | Anselm Kuesters       | Backend (Strapi)     |
 | 1338  | Yes     | TCP       | Anselm Kuesters       | DB user interface    |
 | 1339  | No      | TCP       | Anselm Kuesters       | Backend (Custom)     |
 | 1340  | No      | TCP       | Anselm Kuesters       | Frontend             |
@@ -18,8 +18,9 @@
 | 1501  | Yes     | TCP       | Sportfreunde Eschbach | DB user interface    |
 | 1600  | No      | TCP       | Ernst Kuesters        | Wordpress            |
 | 1601  | Yes     | TCP       | Ernst Kuesters        | DB user interface    |
-| 6143  | Yes     | TCP, UDP  | Nordic World          | Backend              | 
-| 8000  | Yes     | TCP       | Mailserver            | User interface       | 
+| 1700  | Yes     | TCP       | Docs                  | Frontend             |
+| 6143  | Yes     | TCP, UDP  | Nordic World          | Backend              |
+| 8000  | Yes     | TCP       | Mailserver            | User interface       |
 | 8080  | Yes     | TCP       | Destrostudios         | Backend              |
 | 8081  | Yes     | TCP       | Destrostudios         | DB user interface    |
 | 8091  | Yes     | TCP       | CarlBot               | DB user interface    |

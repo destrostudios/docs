@@ -18,6 +18,7 @@
 - Cards
 - CarlBot
 - Destrostudios
+- Docs
 - Ernst Kuesters
 - Ethercards
 - Fifa Champions
