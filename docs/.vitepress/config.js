@@ -7,6 +7,7 @@ export default {
     lineNumbers: true
   },
   themeConfig: {
+    appearance: 'dark',
     logo: '/destrostudios.svg',
     sidebar: {
       "/": [
