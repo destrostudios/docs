@@ -1,4 +1,5 @@
 export default {
+  base: '/docs/',
   lang: 'en-US',
   title: "destrostudios docs",
   description: "Everything about our setups, including the server where everything is hosted.",
